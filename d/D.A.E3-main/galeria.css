@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.lista a:hover{
+   
+    font-size: 25px;
+     background-color: #d4ffad;
+    
+}
+
+.galeria{
+    font-family: 'open sans';
+}
+
+.galeria h1{
+    text-align: center;
+    margin:20px 0 15px 0;
+    font-weight: 300;
+}
+
+.linea{
+    border-top: 5px solid green;
+    margin-bottom: 40px;
+}
+
+.contenedor-imagenes{
+    display:flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius:3px;
+}
+
+.contenedor-imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height:250px;
+    margin-bottom:5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
+}
+.imagen img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:rgba(135, 204, 139, 0.781) ;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.overlay h2{
+    color: #fff;
+    font-weight: 300;
+    font-size:30px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.imagen:hover .overlay{
+    height:100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px){
+    .contenedor-imagenes{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .contenedor-imagenes{
+        width: 90%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:450px){
+    h1{
+        font-size:22px;
+    }
+    .contenedor-imagenes{
+        width: 98%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 80%;
+    }
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.lista a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 15px 50px;
+    background-color: rgb(107, 190, 107);
+    border-radius: 100px;
+    
+}
+
+.menu .lista{
+    display: inline-block;
+    margin-left: 9%;
+    
+   
+}
+
+
+  .form-register {
+    width: 400px;
+    background: rgb(255 255 255 / 66%);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 25px;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #000000;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(7, 2, 2);
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260);
+    border: none;
+    padding: 12px;
+    color: rgb(2, 2, 2);
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 25px;
+  }
+  
+  select{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #000000;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(7, 2, 2);
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  

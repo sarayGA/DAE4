@@ -1,0 +1,110 @@
+.login {
+    background: #22c1c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  
+    background: linear-gradient(to right, #fdbb2d, #22c1c3); 
+    
+    display: flex;
+    align-items: center; /*De forma vertical*/
+    justify-content: center; /*Alinear de forma horizontal*/
+    flex-direction: column; /*De arriba hacia abajo*/
+    padding: 0px 30px; /*Arriba y abajo*/
+    min-height: calc(100vh - 200px);
+}
+
+.login__container {
+    background-color: rgba(255, 255, 255, 0.1); /*Form medio balnco transparente*/
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 68px 40px;
+    min-height: 700px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around; /*para que nos haga un espacio en todos los elementos*/
+    flex-direction: column;
+}
+
+.login__container--form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__container--form label {
+    font-size: 14px;
+}
+
+.login__container--remember {
+    color: white;
+    display: flex;
+    justify-content: space-between; /*Para que haya un espacio en medio de los dos elementos*/
+    margin-top: 10px;
+}
+
+.login__container--remember a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none; /*Le quitamos el subrayado*/
+}
+
+.login__container--remember a:hover {
+    text-decoration: underline; /*Al poner el cursor encima de la palabra aparece el subrayado*/
+}
+
+.login__container--social > div{ /*>div coge todos los div que hay dentro de esta clase*/
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.login__container--social > div > img{ /*>div coge todos los div que hay dentro de esta clase*/
+    width: 30px;
+    margin-right: 10px;
+}
+
+.login__container--register {
+    font-size: 14px;
+}
+
+.login__container--register a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold; /*Pone el texto en negrita*/
+    text-decoration: none;
+}
+
+.login__container--register a:hover {
+    text-decoration: underline; /*Al poner el cursor encima de la palabra aparece el subrayado*/
+}
+
+.input {
+    background-color: transparent; /*Los input estan transparentes*/
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    outline: none; /*Para que el cuadro de texto no tenda bordes azules*/
+    height: 50px;
+}
+
+::placeholder { /*nuestro pseudoelemento, el texto del input se pone blanco*/
+    color: white;
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Muli', sans-serif;
+    height: 50px;
+    letter-spacing: 1px; /*el boton tiene más alto*/
+    margin: 10px 0px;
+}

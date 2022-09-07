@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    font-family: 'Libre Baskerville', serif;
+    background-color: white;
+    background: #22c1c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  
+    background: linear-gradient(to right, #fdbb2d, #22c1c3); 
+    color: #B1E1FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;/*viwport height*/
+     overflow: hidden;
+     margin: 0;
+    
+}
+.menu{
+    background-color: white;
+    background: #22c1c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  
+    background: linear-gradient(to right, #fdbb2d, #22c1c3); ;
+}
+.user-form{
+    width: 100%;
+    max-width: 700px;
+   
+}
+
+.user-form input{
+    width: 100%;
+    display: block;
+    background-color: #B270A2;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-family: inherit;/*valor que se hereda de otro lado*/
+    box-shadow: 0 5px 8px #482088, 0 15px #B1E1FF;/*Sombra*/
+}
+
+.user-form input::placeholder{
+    color: rgb(88, 37, 121);
+}
+
+.user-form input:focus{
+    outline: none;
+}
+nav{
+    width: 100%; 
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.lista a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 15px 50px;
+    background-color: rgb(107, 190, 107);
+    border-radius: 100px;
+    
+}
+
+.menu .lista{
+    display: inline-block;
+    margin-left: 9%;
+    
+   
+}
+
+.lista-r{
+    float: right;
+}
+.lista a:hover{
+   
+    font-size: 25px;
+     background-color: #d4ffad;
+    
+}
+.input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input {
+    min-height: 50px;
+    max-width: 150px;
+    padding: 0 1rem;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #5e4dcd;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+  }
+  button{
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+  
+  
+
+
+  

@@ -1,0 +1,110 @@
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 100px;
+    padding: 0;
+    background-color: white;
+    background: #22c1c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  
+    background: linear-gradient(to right, #fdbb2d, #22c1c3); 
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(21, 22, 22);
+    font-family:'Tapestry', cursive;
+}
+
+nav{
+    width: 100%; 
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.lista a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 15px 50px;
+    background-color: rgb(107, 190, 107);
+    border-radius: 100px;
+    
+}
+
+.menu .lista{
+    display: inline-block;
+    margin-left: 9%;
+    
+   
+}
+
+.lista-r{
+    float: right;
+}
+.lista a:hover{
+   
+    font-size: 25px;
+     background-color: #d4ffad;
+    
+}
+
+p{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+input{
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    margin-top: 5%;
+    background-color: #bdcfecd5;
+}
+label{
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 600;
+}
+#textarea{
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: #bdcfecd5;
+    color: black;
+}
+button{
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    color: white;
+}
+
+input:focus{
+    outline: none;
+    background-color: rgb(243, 255, 191);
+    color: black;
+}
+
+  
+  
